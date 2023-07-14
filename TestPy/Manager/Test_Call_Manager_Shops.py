@@ -3,7 +3,6 @@ import csv
 import requests
 from pytest_csv_params.decorator import csv_params
 
-
 @csv_params(
     data_file="../Manager/token_manager.csv",
     data_casts={
